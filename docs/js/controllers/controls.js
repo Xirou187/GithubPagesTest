@@ -1,5 +1,5 @@
-import { queryAll, enterFullscreen } from '../utils/util.js'
-import { isAndroid } from '../utils/device.js'
+import { queryAll, enterFullscreen } from 'utils/util.js'
+import { isAndroid } from 'utils/device.js'
 
 /**
  * Manages our presentation controls. This includes both

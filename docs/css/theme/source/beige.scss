@@ -7,8 +7,8 @@
 
 // Default mixins and settings -----------------
 @use "sass:color";
-@import "../template/mixins";
-@import "../template/settings";
+@import "template/mixins";
+@import "template/settings";
 // ---------------------------------------------
 
 
@@ -18,7 +18,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
 
-// Override theme settings (see ../template/settings.scss)
+// Override theme settings (see template/settings.scss)
 $mainColor: #333;
 $headingColor: #333;
 $headingTextShadow: none;
@@ -41,5 +41,5 @@ $overlayElementFgColor: 240, 240, 240;
 
 
 // Theme template ------------------------------
-@import "../template/theme";
+@import "template/theme";
 // ---------------------------------------------

@@ -5,8 +5,8 @@
 
 
 // Default mixins and settings -----------------
-@import "../template/mixins";
-@import "../template/settings";
+@import "template/mixins";
+@import "template/settings";
 // ---------------------------------------------
 
 
@@ -55,7 +55,7 @@ $pink: #FF79C6;
 
 
 
-// Override theme settings (see ../template/settings.scss)
+// Override theme settings (see template/settings.scss)
 $mainColor: $foreground;
 $headingColor: $purple;
 $headingTextShadow: none;
@@ -74,7 +74,7 @@ $codeFont: "Fira Code", $systemFontsMono;
 @include light-bg-text-color($background);
 
 // Theme template ------------------------------
-@import "../template/theme";
+@import "template/theme";
 // ---------------------------------------------
 
 // Define additional color effects based on Dracula spec

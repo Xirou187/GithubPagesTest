@@ -12,8 +12,8 @@
 
 // Default mixins and settings -----------------
 @use "sass:color";
-@import "../template/mixins";
-@import "../template/settings";
+@import "template/mixins";
+@import "template/settings";
 // ---------------------------------------------
 
 // Include theme-specific fonts
@@ -52,7 +52,7 @@ $selectionColor: #fff;
 
 
 // Theme template ------------------------------
-@import "../template/theme";
+@import "template/theme";
 // ---------------------------------------------
 
 // some overrides after theme template import
