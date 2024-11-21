@@ -184,7 +184,7 @@ export default class Backgrounds {
 
 		if( dataPreload ) element.setAttribute( 'data-preload', '' );
 
-		// Background image options are set on the content wrapper
+		// background image options are set on the content wrapper
 		if( data.backgroundSize ) contentElement.style.backgroundSize = data.backgroundSize;
 		if( data.backgroundRepeat ) contentElement.style.backgroundRepeat = data.backgroundRepeat;
 		if( data.backgroundPosition ) contentElement.style.backgroundPosition = data.backgroundPosition;

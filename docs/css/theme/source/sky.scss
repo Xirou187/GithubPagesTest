@@ -38,7 +38,7 @@ $overlayElementFgColor: 240, 240, 240;
 	line-height: 1.3em;
 }
 
-// Background generator
+// background generator
 @mixin bodyBackground() {
 	@include radial-gradient( #add9e4, #f7fbfc );
 }
