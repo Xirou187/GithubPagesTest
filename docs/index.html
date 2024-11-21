@@ -16,8 +16,62 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-background-gradient="linear-gradient(to bottom, #eda63b, #7d3bed)">
+					<h2 class="r-fit-text">Projekte 3 Klasse bis Heute</h2>
+				</section>
+				<section data-background-gradient="linear-gradient(to bottom, #285c38, #41b062)">
+					<section >
+						<h2>Minesweeper</h2>
+						<h3>Erstes großes Projekt</h3>
+						<code>Java & JavaFX,<br> klassisches Projektmanagement</code>
+					</section>
+					<section>
+						<h2>Übersicht</h2>
+						<img src="../media/Minesweeper/Minesweeper_default.png" style="height: 400px; width: 400px;">
+						<img src="../media/Minesweeper/Minesweeper_played.png" style="height: 400px; width: 400px;">
+					</section>
+					<section>
+						<h3>Ziel war es bei diesem Projekt die Rekursion zu lernen und umzusetzen.</h3>
+						<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+						displayAdjacentBombCount(posX + i - 1, posY + j - 1,
+							checkAdjacentBombCount(posX + i - 1, posY + j - 1));
+						</code></pre>
+						<p>Hier wird eine Funktion wieder und wieder aufgerufen, bis sie alle möglichen Felder geprüft hat.</p>
+					</section>
+				</section>
+				<section data-background-gradient="linear-gradient(to bottom, #a3473b, #c97540)">
+					<section>
+						<h2>Snake</h2>
+						<code>Java & JavaFX,<br> klassisches Projektmanagement</code>
+					</section>
+					<section>
+						<h2>Übersicht</h2>
+						<img src="../media/Snake/Snake_MainMenu.png" style="height: 400px; width: 400px;">
+						<img src="../media/Snake/Snake_MainMenu_Grape.png" style="height: 400px; width: 400px;">
+					</section>
+					<section>
+						<h2>Gameplay</h2>
+						<img src="../media/Snake/Snake_played.png" style="height: 550px; width: 550px;">
+					</section>
+					<section>
+						<p>Hier haben wir zum ersten mal alle paar Sekunden eine Funktion aufgerufen.</p>
+						<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+						timeline = new Timeline(
+							new KeyFrame(
+							Duration.millis(this.speed),
+							new EventHandler<<span>ActionEvent</span>() {
+								@Override
+								public void handle(ActionEvent actionEvent) {
+									...
+								}
+						}));
+						timeline.setCycleCount(Animation.INDEFINITE);
+						timeline.play();
+						</code></pre>
+
+					</section>
+
+				</section>
 			</div>
 		</div>
 
