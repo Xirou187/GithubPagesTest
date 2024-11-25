@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="css/style.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -22,14 +23,14 @@
 				</section>
 				<section data-background-gradient="linear-gradient(to bottom, #b3814d, #755635)">
 					<section>
-						<h2 class="r-fit-text">Calc (Calc is Slang für Calculator)</h2>
+						<h2 class="r-fit-text">Calc (Calc is Slang f&uuml;r Calculator)</h2>
 						<h4>Erstes Projekt im JavaFX Framework</h4>
 						<code>Java & JavaFX</code>
 					</section>
 					<section>
-						<h2>Übersicht</h2>
-						<img src="media/taschenrechner/Taschenrechner_default.png" style="height: 400px;" alt="">
-						<img src="media/taschenrechner/Taschenrechner_calculation.png" style="height: 400px;" alt="">
+						<h2>&uuml;bersicht</h2>
+						<img src="media/taschenrechner/Taschenrechner_default.png" class="image" style="height: 400px;" alt="">
+						<img src="media/taschenrechner/Taschenrechner_calculation.png" class="image" style="height: 400px;" alt="">
 					</section>
 				</section>
 				<section data-background-gradient="linear-gradient(to bottom, #376955, #559e81)">
@@ -39,21 +40,29 @@
 						<code>Java & JavaFX</code>
 					</section>
 					<section>
-						<h2>Übersicht</h2>
-						<img alt="" height="789"
+						<h2>&Uuml;bersicht</h2>
+						<img alt="" class="image"
 							 src="media/schereSteinPapier/SchereSteinPapier_default.png"
-							 style="height: 400px;" width="1249">
+							 style="height: 500px;">
 					</section>
-					<section>
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
 						<h2>Auswahl getroffen</h2>
-						<img src="media/schereSteinPapier/SchereSteinPapier_selected.png" style="height: 400px;" alt="">
+						<div class="r-stack">
+							<img data-id="schereSteinPapierImage1" src="media/schereSteinPapier/SchereSteinPapier_selected.png" class="image" style="height: 400px;" alt="">
+							<img data-id="schereSteinPapierImage2" src="media/schereSteinPapier/SchereSteinPapier_selected.png" class="image" style="height: 400px;" alt="">
+							<img data-id="schereSteinPapierImage3" src="media/schereSteinPapier/SchereSteinPapier_selected.png" class="image" style="height: 400px;" alt="">
+						</div>
+
 					</section>
 
-					<section>
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
 						<h2>Ergebnis</h2>
-						<img src="media/schereSteinPapier/SchereSteinPapier_won.png" style="width: 400px;" alt="">
-						<img src="media/schereSteinPapier/SchereSteinPapier_lost.png" style="width: 400px;" alt="">
-						<img src="media/schereSteinPapier/SchereSteinPapier_draw.png" style="width: 400px;" alt="">
+						<div class="r-hstack">
+							<img data-id="schereSteinPapierImage1" src="media/schereSteinPapier/SchereSteinPapier_won.png" class="image" style="width: 400px; margin-left: 10px; margin-right: 10px;" alt="">
+							<img data-id="schereSteinPapierImage2" src="media/schereSteinPapier/SchereSteinPapier_lost.png" class="image" style="width: 400px; margin-left: 10px; margin-right: 10px;" alt="">
+							<img data-id="schereSteinPapierImage3" src="media/schereSteinPapier/SchereSteinPapier_draw.png" class="image" style="width: 400px; margin-left: 10px; margin-right: 10px;" alt="">
+						</div>
+
 					</section>
 
 					</section>
@@ -65,9 +74,9 @@
 						<code>Java & JavaFX,<br> klassisches Projektmanagement</code>
 					</section>
 					<section>
-						<h2>Übersicht</h2>
-						<img src="media/minesweeper/Minesweeper_default.png" style="height: 400px; width: 400px;" alt="">
-						<img src="media/minesweeper/Minesweeper_played.png" style="height: 400px; width: 400px;" alt="">
+						<h2>&uuml;bersicht</h2>
+						<img src="media/minesweeper/Minesweeper_default.png" class="image" style="height: 400px; width: 400px;" alt="">
+						<img src="media/minesweeper/Minesweeper_played.png" class="image" style="height: 400px; width: 400px;" alt="">
 					</section>
 					<section>
 						<h3>Ziel war es bei diesem Projekt die Rekursion zu lernen und umzusetzen.</h3>
@@ -75,7 +84,7 @@
 						displayAdjacentBombCount(posX + i - 1, posY + j - 1,
 							checkAdjacentBombCount(posX + i - 1, posY + j - 1));
 						</code></pre>
-						<p>Hier wird eine Funktion wieder und wieder aufgerufen, bis sie alle möglichen Felder geprüft hat.</p>
+						<p>Hier wird eine Funktion wieder und wieder aufgerufen, bis sie alle m&ouml;glichen Felder gepr&uuml;ft hat.</p>
 					</section>
 				</section>
 				<section data-background-gradient="linear-gradient(to bottom, #a3473b, #c97540)">
@@ -84,14 +93,14 @@
 						<code>Java & JavaFX,<br> klassisches Projektmanagement</code>
 					</section>
 					<section>
-						<h2>Übersicht</h2>
-						<img src="media/snake/Snake_MainMenu.png" style="height: 400px; width: 400px;" alt=""
+						<h2>&uuml;bersicht</h2>
+						<img src="media/snake/Snake_MainMenu.png" class="image" style="height: 400px; width: 400px;" alt=""
 							 width="810" height="780">
-						<img src="media/snake/Snake_MainMenu_Grape.png" style="height: 400px; width: 400px;" alt="">
+						<img src="media/snake/Snake_MainMenu_Grape.png" class="image" style="height: 400px; width: 400px;" alt="">
 					</section>
 					<section>
 						<h2>Gameplay</h2>
-						<img src="media/snake/Snake_played.png" style="height: 550px; width: 550px;" alt="">
+						<img src="media/snake/Snake_played.png" class="image" style="height: 550px; width: 550px;" alt="">
 					</section>
 					<section>
 						<p>Hier haben wir zum ersten mal alle paar Sekunden eine Funktion aufgerufen.</p>
@@ -99,7 +108,7 @@
 						timeline = new Timeline(
 							new KeyFrame(
 							Duration.millis(this.speed),
-							new EventHandler<<span>ActionEvent</span>() {
+							new EventHandler&lt;ActionEvent&gt;() {
 								@Override
 								public void handle(ActionEvent actionEvent) {
 									...
@@ -113,74 +122,74 @@
 				<section data-background-gradient="linear-gradient(to bottom, #a39329, #295aa3)">
 					<section>
 						<h2>Quizapp (Kahoot basiert)</h2>
-						<h4>Aus zeitlichen Gründen nicht fertig geworden (Ende des Schuljahres)</h4>
+						<h4>Aus zeitlichen Gr&uuml;nden nicht fertig geworden (Ende des Schuljahres)</h4>
 						<h4>Erstes Projekt mit agilem Projektmanagement</h4>
 					</section>
 					<section>
-						<h2>Hauptmenü</h2>
-						<img src="media/quizApp/QuizApp_MainMenu.png" style="height: 400px;" alt="">
+						<h2>Hauptmen&uuml;</h2>
+						<img src="media/quizApp/QuizApp_MainMenu.png" class="image" style="height: 400px;" alt="">
 					</section>
 					<section>
 						<h2>Fragen Konfiguration</h2>
-						<img src="media/quizApp/QuizApp_Config.png" style="height: 400px;" alt="">
-						<p>Hätte noch designed und bearbeitet werden sollen...</p>
+						<img src="media/quizApp/QuizApp_Config.png" class="image" style="height: 400px;" alt="">
+						<p>H&auml;tte noch designed und bearbeitet werden sollen...</p>
 					</section>
 					<section>
 						<h2>True / False Fragen</h2>
-						<img src="media/quizApp/QuizApp_TF.png" style="height: 400px;" alt="">
+						<img src="media/quizApp/QuizApp_TF.png" class="image" style="height: 400px;" alt="">
 					</section>
 					<section>
 						<h2>Auswahlfragen</h2>
-						<img src="media/quizApp/QuizApp_4Q.png" style="height: 400px;" alt="">
+						<img src="media/quizApp/QuizApp_4Q.png" class="image" style="height: 400px;" alt="">
 					</section>
 				</section>
 				<section data-background-gradient="linear-gradient(to bottom, #6ed9db, #6edb9d">
 					<section>
 						<h2>Crossy Road</h2>
-						<h4>Größtes Projekt bisher (5er Team)</h4>
+						<h4>Gr&ouml;ßtes Projekt bisher (5er Team)</h4>
 						<code>Java & JavaFX, agiles Projektmanagement</code>
 					</section>
 					<section>
-						<h2>Hauptmenü</h2>
-						<img src="media/crossyRoad/CrossyRoad_MainMenu.png" style="height: 450px;" alt="">
+						<h2>Hauptmen&uuml;</h2>
+						<img src="media/crossyRoad/CrossyRoad_MainMenu.png" class="image" style="height: 450px;" alt="">
 					</section>
 					<section>
 						<h2>Einstellungen</h2>
-						<p>Hier können die Lautstärken geregelt werden und Funktionen aktiviert werden</p>
-						<img src="media/crossyRoad/CrossyRoad_Options.png" style="height: 450px;" alt="">
+						<p>Hier k&ouml;nnen die Lautst&auml;rken geregelt werden und Funktionen aktiviert werden</p>
+						<img src="media/crossyRoad/CrossyRoad_Options.png" class="image" style="height: 450px;" alt="">
 					</section>
 					<section>
 						<h2>Shop</h2>
-						<p>Mit Münzen die man im Spiel sammelt kann man sich diverse Skins kaufen.</p>
-						<img src="media/crossyRoad/CrossyRoad_Shop.png" style="height: 450px;" alt="">
+						<p>Mit M&uuml;nzen die man im Spiel sammelt kann man sich diverse Skins kaufen.</p>
+						<img src="media/crossyRoad/CrossyRoad_Shop.png" class="image" style="height: 450px;" alt="">
 					</section>
 					<section>
-						<h2>Skin ausgewählt</h2>
-						<img src="media/crossyRoad/CrossyRoad_Prankbro_selected.png" style="height: 450px;" alt="">
+						<h2>Skin ausgew&auml;hlt</h2>
+						<img src="media/crossyRoad/CrossyRoad_Prankbro_selected.png" class="image" style="height: 450px;" alt="">
 					</section>
 					<section>
 						<h2>Gameplay</h2>
 						<p>Wie im normalen Crossy Road darf man hier von keinen Fahrzeugen getroffen werden.</p>
-						<img src="media/crossyRoad/CrossyRoad_Gameplay.png" style="height: 450px;" alt="">
+						<img src="media/crossyRoad/CrossyRoad_Gameplay.png" class="image" style="height: 450px;" alt="">
 					</section>
 					<section>
 						<h2>Experimentelle Funktionen</h2>
-						<p>Hier wurden alle Bilder verdreht und einige lustige Bilder als Hindernisse hinzugefügt.</p>
-						<img src="media/crossyRoad/CrossyRoad_Experimental.png" style="height: 450px;" alt="">
+						<p>Hier wurden alle Bilder verdreht und einige lustige Bilder als Hindernisse hinzugef&uuml;gt.</p>
+						<img src="media/crossyRoad/CrossyRoad_Experimental.png" class="image" style="height: 450px;" alt="">
 					</section>
 					<section>
 						<h2>Game Over</h2>
 						<p>Hier kann man sich mit seinem Highscore verewigen.</p>
-						<img src="media/crossyRoad/CrossyRoad_GameOver.png" style="height: 450px;" alt="">
+						<img src="media/crossyRoad/CrossyRoad_GameOver.png" class="image" style="height: 450px;" alt="">
 					</section>
 					<section>
 						<h2>Skala des Projekts</h2>
 						<p>Alle diese Punkte sind eigene Codefiles <br> mit hunderten von Zeilen.</p>
-						<img src="media/crossyRoad/CrossyRoad_Klassenuebersicht.png" style="height: 450px;" alt="">
+						<img src="media/crossyRoad/CrossyRoad_Klassenuebersicht.png" class="image" style="height: 450px;" alt="">
 					</section>
 				</section>
 				<section data-background="media/background/ZestyPaul.jpg" data-background-size="100% 100%">
-					<h1 class="r-fit-text"> Danke für eure Aufmerksamkeit</h1>
+					<h1 class="r-fit-text"> Danke f&uuml;r eure Aufmerksamkeit</h1>
 				</section>
 
 			</div>
